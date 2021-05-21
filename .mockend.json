@@ -1,0 +1,15 @@
+{
+    "Post": {
+      "title": "string",
+      "views": "int",
+      "likes":"int",
+      "published": "boolean",
+      "created": "date",
+      "comments": "Comment[]"
+    },
+    "Comment": {
+      "body": "string",
+      "post": "Post",
+      "created": "date"
+    }
+  }
